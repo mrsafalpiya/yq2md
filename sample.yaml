@@ -1,0 +1,174 @@
+- name: "Unit 1: Rotational Dynamics and Oscillatory Motion"
+  items:
+    - question: |
+        (1) **[Example 8.1]** A balance scale consisting of a weightless rod has a mass of 0.1 kg on the right side 0.2 m from a pivot point.
+
+        (a) How far from the pivot point on the left must 0.4 kg be placed so that balance is achieved?
+        (b) If the 0.4 kg mass is suddenly removed, what is the instantaneous rotational acceleration of the rod?
+        (c) What is the instantaneous tangential acceleration of the 0.1 kg mass when the 0.4 kg mass is removed?
+      answer: |
+        0.05 m, 49 rad/s$^2$, 9.8 m/s$^2$
+    - question: |
+        (2) **[Example 8.2]** A large wheel of radius 0.4 m and moment of inertia 1.2 kgm², pivoted at the center is free to rotate without friction. A rope is wound around it and a 2 kg weight is attached to the rope. When the weight has descended 1.5 m from its starting point
+
+        (a) What is it's downward velocity?
+        (b) What is the rotational velocity of wheel?
+      answer: |
+        2.5 m/s, 6.2 rad/s
+    - question: |
+        (3) **[Example 8.4]** Suppose the body of an ice skater has a moment of inertia 4 kgm² and her arms have a mass 5 kg each with the center of mass at 0.4 m from her body. She starts to turn at 0.5 rev/s on the point of her skate with her arm outstretched. She then pulls her arms inward so that their center of mass is at the axis of her body, r = 0. What will be her speed of rotation?
+      answer: |
+        0.7 rev/s
+    - question: |
+        (6) **[Problem 8.3]** A roulette wheel with I = 0.5 kgm² rotating initially at 2 rev/s coasts to stop from the constant friction torque of the bearing. If the torque is 0.4 Nm, how long does it take to stop?
+      answer: |
+        15.7 sec
+    - question: |
+        (10) **[Example 10.2]** A given spring stretches 0.1 m when a force of 20 N pulls on it. A 2 kg block attached to it on a friction-less surface pulled to the right 0.2 m and released.
+
+        (a) What is the frequency of oscillation of the block?
+
+        (b) What is it's velocity at the mid point?
+
+        (c) What is it's acceleration at either end?
+
+        (d) What are the velocity and acceleration when x = 0.12 m on the block's first passing this point?
+      answer: |
+        1.6 Hz, 2 m/s, 20.19 m/s², 1.6 m/s, 12.12 m/s²
+    - question: |
+        (12) **[Example 10.4]** A 40 kg boy jumps from a height of 4 m on to a horizontal platform mounted on spring. As the springs compresses, the platform is pushed down a maximum distance of 0.2 m below it's initial position, and it then rebounds. What is the boy's speed at the instant the platform is depressed 0.1 m?
+      answer: |
+        7.93 m/s
+    - question: |
+        (15) **[Problem 10.9]** The position of an oscillating particle is given by $x = A \sin(\omega t + \phi)$. A particle of mass m = 0.5 kg is connected to a spring of force constant k = 200 N/m. The particle is initially at rest on a friction-less table. The particle is given an initial velocity of 1.5 m/s to start oscillating. What is the amplitude of the motion A and phase angle Φ?
+      answer: |
+        7.5 × 10⁻² m, 0 rad
+    - question: |
+        (17) **[Problem 10.18]** A spring (k = 200 N/m) is compressed 10 cm between two blocks of mass m1 = 1.5 kg and m2 = 4.5 kg. The spring is not connected to the blocks and the table is friction-less. What are the velocities of the blocks after they are released and lose contact with the spring?
+      answer: |
+        v1 = 1 m/s and v2 = 0.33 m/s
+- name: "Unit 2: Electric and Magnetic Field"
+  items:
+    - question: |
+        (1) **[Example 14.1]** A charge q$_1$ = 3 $\times$ 10$^{-6}$ C is located at the origin of the x-axis. A second charge q$_2$ = -5 $\times$ 10$^{-6}$ C is also on the x-axis 4 m from the origin in the positive x-direction.
+
+        (a) Calculate the e.f. at the mid point P of the line joining the two charges.
+        (b) At what point P' on the line is the resultant field zero?
+      answer: |
+        18 $\times$ 10$^3$ N/C, 13.75 m left from origin
+    - question: |
+        (2) **[Example 14.2]** Three charges q$_1$ = 3 $\times$ 10$^{-6}$ C, q$_2$ = -5 $\times$ 10$^{-6}$ C, q$_3$ = -8 $\times$ 10$^{-6}$ C are positioned on a straight line. Find the P.E. of the charges. (r$_{12}$=4m, r$_{23}$=5m)
+      answer: |
+        1.43 $\times$ 10$^{-2}$ J
+    - question: |
+        (3) **[Example 14.3]** A potential difference of 100 V is established between two plates 'A' and 'B'. Plate 'B' being high potential. A proton of charge q = 1.6 $\times$ 10$^{-19}$ C is released from plate 'B'. What will be the velocity of the proton when it reaches plate 'A'? The mass of proton is 1.67 $\times$ 10$^{-27}$ kg.
+      answer: |
+        1.38 $\times$ 10$^5$ m/s
+    - question: |
+        (5) **[Problem 14.8]** Two large parallel plates are separated by a distance of 5 cm. The plates have equal but opposite charges that create an e.f. in the region between the plates. An $\alpha$ particle (q = 3.2 $\times$ 10$^{-19}$ C, m = 6.68 $\times$ 10$^{-27}$ kg) is released from the oppositely charged plate and it strikes the negatively charged plate 2 $\times$ 10$^{-6}$ sec later. Assuming that the e.f. between the plates is uniform and $\perp$ to the plates, what is the strength of the electric field?
+      answer: |
+        522 NC$^{-1}$
+    - question: |
+        (6) **[Problem 14.21]** An electron is placed midway between two fixed charges q$_1$ = 2.5 $\times$ 10$^{-10}$ C and q$_2$ = 5 $\times$ 10$^{-10}$ C. If the charges are 1m apart, what is the velocity of the electron when it reaches a point 10 cm from q$_2$?
+      answer: |
+        1.125 $\times$ 10$^6$ ms$^{-1}$
+    - question: |
+        (10) **[Example 16.2]** A current 50 A is established in a slab of copper 0.5 cm thick and 2 cm wide. The slab is placed in a m.f. of 1.5 T. The m.f. is perpendicular to the plane of the slab and to the current. The free electron in copper is 8.4 $\times$ 10$^{28}$ /m$^3$. What will the magnitude of Hall voltage across the width of slab?
+      answer: |
+        1.12 $\times$ 10$^{-6}$ V
+    - question: |
+        (11) **[Example 16.1]** Assume that the electron in a H-atom is essentially in a circular orbit of radius 0.5 $\times$ 10$^{-10}$ m, and rotates about the nucleus at the rate of 10$^{14}$ times per second. What is the magnetic moment of H-atom?
+      answer: |
+        1.26 $\times$ 10$^{-25}$ Am$^2$
+    - question: |
+        (12) **[Problem 16.1]** What force is experienced by a wire of length 0.08 m at an angle of 20$^{\circ}$ to the magnetic field direction carrying current of 2 A in m.f. of 1.4 T?
+      answer: |
+        7.66 $\times$ 10$^{-2}$ N
+- name: "Unit 3: Fundamentals of Atomic Theory"
+  items:
+    - question: |
+        (3) **[Problem 18.1]** Calculate the shortest and the longest wavelength of the Balmer series of H-atom.
+      answer: |
+        Shortest - 3646 $\mbox{\normalfont\AA}$, Longest - 6563 $\mbox{\normalfont\AA}$
+    - question: |
+        (4) **[Problem 18.2]** What are (a) the energy (b) the momentum (c) the wavelength of photon that is emitted when a Hydrogen undergoes a transition from the state n = 3 to n = 1?
+      answer: |
+        12.07 ev, 6.44 $\times$ 10$^{-27}$ kg.m/s, 1030$\mbox{\normalfont\AA}$
+    - question: |
+        (6) **[Problem 18.6]** Calculate the ionization energy of H-atom from the following data. The wavelength of Balmer series Limit (n = $\infty$ to n = 2) is 3645 $\mbox{\normalfont\AA}$ and the wavelength of the first line of the Lyman series (n = 2 to n = 1) is 1215 $\mbox{\normalfont\AA}$.
+      answer: |
+        13.625 eV
+    - question: |
+        (7) **[Problem 18.19]** The G.S. and the first exicted state energies of Potassium atoms are -4.3 ev and -2.7 ev, respectively. If we use Potassium vapour in Franck-Hertz experiment, at what voltages should we see drops in the plot of current versus voltage?
+      answer: |
+        1.6 eV
+    - question: |
+        (8) **[Example 19.1]** A beam of monochromatic neutron is incident on a KCl crystal with lattice spacing of 3.14 $\mbox{\normalfont\AA}$. The first order diffraction maximum is observed when the angle '$\theta$' between the incident beam and the atomic planes is 37$^{\circ}$. What is the Kinetic Energy of the neutrons?
+      answer: |
+        5.75 $\times$ 10$^{-3}$ eV
+    - question: |
+        (10) **[Problem 19.2]** The de-Broglie wavelength of a photon is 10$^{-13}$ m.
+
+        (a) What is the speed of the photon?
+
+        (b) Through what pd. must the proton be accelerated to acquire such a speed?
+      answer: |
+        3.96 $\times$ 10$^6$ m/s, 81875 V
+    - question: |
+        (11) **[Problem 19.7]** An $\alpha$ particle is emitted from a nucleus with an energy of 5 MeV (5 $\times$ 10$^6$ eV). Calculate the wavelength of an $\alpha$-particle with such energy and compare it with the size of the emitting nucleus that has a radius of 8 $\times$ 10$^{-15}$ m.
+      answer: |
+        6.4 $\times$ 10$^{-15}$ m, Less than the radius
+    - question: |
+        (13) **[Problem 19.11]** A neutron spectroscopy a beam of mono energetic neutrons is obtained by reflecting reactor neutrons from a beryllium crystal. If separation between the atomic planes of the beryllium crystal is 0.732 $\mbox{\normalfont\AA}$, what is the angle between the incident neutron beam and the atomic planes that will yield a monochromatic beam of neutrons of wavelength 0.1 $\mbox{\normalfont\AA}$.
+      answer: |
+        3.92$^{\circ}$
+    - question: |
+        (14) **[Problem 19.16]** A small particle of mass 10$^{-6}$ gm moves along the x-axis, it's speed is uncertain by 10$^{-6}$ ms$^{-1}$.
+
+        (a) What is the uncertainty in the x-coordiante of the particle?
+
+        (b) Repeat the calculation for an electron assuming that the uncertainty in its velocity is also 10$^{-6}$ ms$^{-1}$
+      answer: |
+        1.05 $\times$ 10$^{-19}$ m, 115.76 m
+    - question: |
+        (15) **[Problem 19.19]** The uncertainty in the position of a particle is equal to the de-Broglie wavelength of the particle. Calculate the uncertainty in the velocity of the particle in terms of the velocity of the de-Broglie wavelength associated with the particle.
+      answer: |
+        $\frac{v}{2\pi}$
+- name: "Unit 5: Fundamentals of Solid State Physics"
+  items:
+    - question: |
+        (1) **[Problem 22.1]** Copper has a face-centered cubic structure with a one-atom basis. The density of copper is 8.96 gm/cm$^3$ and it's atomic weight is 63.5 gm/mol. What is the length of unit cube of the structure?
+      answer: |
+        3.61 $\mbox{\normalfont\AA}$
+    - question: |
+        (4) **[Problem 22.5]** Assuming that atoms in a crystal structure are arranged in close-packed spheres, what is the ratio of the volume of the atoms to the volume available for the face centered cubic structure? Assume a one-atom basis.
+      answer: |
+        74%
+    - question: |
+        (5) **[Problem 22.9]** The dissociation energy of KF molecule is 5.12 eV. The ionization energy of K is 4.34 eV, and the electron affinity of 'F' is 4.07 eV. What is the equilibrium separation constant for the KF molecule?
+      answer: |
+        2.675 $\mbox{\normalfont\AA}$
+    - question: |
+        (6) **[Example 23.1]** Consider a copper wire of cross-sectional area A = 1mm$^2$ carrying current I = 1A. What is the drift velocity v$_d$ of the electrons? 'Cu' is monovalent, i.e., there is one free electron per atom. The density and the molecular weight of 'Cu' are 9 gm/cm$^3$ and 64 gm/mol respectively.
+      answer: |
+        7 \times 10$^{-5}$ m/s
+    - question: |
+        (7) **[Example 23.2]** The number of free electrons in copper is 8.4 $\times$ 10$^{28}$/m$^3$.
+
+        (a) Calculate the fermi energy for 'Cu'.
+
+        (b) At what temperature 'T$_f$' will the average thermal energy K$_B$T$_f$ of a gas will be equal to that energy?
+      answer: |
+        6.95 eV, 80500 K
+    - question: |
+        8. **[Problem 24.6]** The energy gaps of some alkali halides are KCl = 7.6 eV, KBr = 6.3 eV, KI = 5.6 eV. Which of these are transparent to the visible light? At what wavelength does each become opaque?
+      answer: |
+
+    - question: |
+        (9) **[Problem 24.8]** The density of aluminium is 2.7 gm/cm$^3$ and it's molecular weight is 26.98 gm/mol.
+
+        (a) Calculate the Fermi Energy
+
+        (b) If the experimental value of E$_f$ is 12 eV, what is the electron effective mass in aluminium? Aluminium is trivalent.
+      answer: |
+        11.66 eV, 8.847 $\times$ 10$^{-31}$
