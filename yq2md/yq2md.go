@@ -21,7 +21,7 @@ type YqOptions struct {
 	AllIntoOne       bool
 	ShowAnswers      bool
 	HTMLOptimization bool
-	MDTemplate       string
+	MDHeader         string
 }
 
 type YqInstance struct {

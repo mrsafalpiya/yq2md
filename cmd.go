@@ -66,5 +66,5 @@ func parseArgs() {
 		log.Fatal("[Error] Cannot read file: ", err)
 	}
 
-	passedArgs.MDTemplate = MDTemplate
+	passedArgs.MDHeader = MDHeader
 }

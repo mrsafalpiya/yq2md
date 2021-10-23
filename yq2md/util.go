@@ -56,7 +56,7 @@ func (y *yamlDefs) randomizeItems() {
 
 func (m *mdBuffer) fillBufFromYqInstance(y *YqInstance) {
 	if !y.options.HTMLOptimization {
-		m.addString(&y.options.MDTemplate)
+		m.addString(&y.options.MDHeader)
 		m.addNewLines(2)
 	}
 
@@ -82,8 +82,8 @@ func (m *mdBuffer) fillBufFromYqInstance(y *YqInstance) {
 	}
 }
 
-func (b *mdBuffer) addString(mdTemplate *string) {
-	b.buf.WriteString(*mdTemplate)
+func (b *mdBuffer) addString(mdHeader *string) {
+	b.buf.WriteString(*mdHeader)
 }
 
 func (b *mdBuffer) addNewLines(n int) {

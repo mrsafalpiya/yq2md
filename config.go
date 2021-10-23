@@ -1,6 +1,6 @@
 package main
 
-var MDTemplate string = `---
+var MDHeader string = `---
 mainfont: Georgia
 autoEqnLabels: true
 
