@@ -68,5 +68,15 @@ go install github.com/mrsafalpiya/yq2md@latest
 Just RTFM
 
 ```sh
-yq2md --help
+$ yq2md --help
+```
+
+```
+Usage of yq2md:
+  -a, --all             Enable this flag to dump all questions into a single root category (disable categorization)
+      --html            Produce markdown optimized for HTML conversion
+  -n, --numerize        Enable this flag to numerize items within categories
+  -r, --randomize       Enable this flag to randomize items within categories
+  -s, --show-answer     Enable this flag to answers of the questions too
+  -t, --toggle-answer   Enable this flag to make the answer toggle (Available only when --html flag is enabled)
 ```
