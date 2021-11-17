@@ -56,7 +56,7 @@ func (y *yamlDefs) randomizeItems() {
 
 func (m *mdBuffer) fillBufFromYqInstance(y *YqInstance) {
 	if !y.options.HTMLOptimization {
-		m.addString(&y.options.MDHeader)
+		m.addString(y.options.MDHeader)
 		m.addNewLines(2)
 	}
 
@@ -82,8 +82,8 @@ func (m *mdBuffer) fillBufFromYqInstance(y *YqInstance) {
 	}
 }
 
-func (b *mdBuffer) addString(mdHeader *string) {
-	b.buf.WriteString(*mdHeader)
+func (b *mdBuffer) addString(mdHeader string) {
+	b.buf.WriteString(mdHeader)
 }
 
 func (b *mdBuffer) addNewLines(n int) {
@@ -127,11 +127,22 @@ func (b *mdBuffer) addQuesTitle(title *string) {
 }
 
 func (b *mdBuffer) addQuesAns(ans *string) {
+	/* Sometimes the answer is empty */
+	if *ans == "\n" {
+		return
+	}
+
 	if b.isHTMLOptimized {
 		b.buf.WriteString(":::{.ques_ans}\n")
+		if b.isAnswerToggle {
+			b.buf.WriteString("<details><summary>Answer</summary>")
+		}
 	}
 	b.buf.WriteString(*ans)
 	if b.isHTMLOptimized {
+		if b.isAnswerToggle {
+			b.buf.WriteString("</details>")
+		}
 		b.buf.WriteString("\n")
 		b.buf.WriteString(":::")
 	}

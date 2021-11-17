@@ -20,6 +20,7 @@ type YqOptions struct {
 	ToNumerize       bool
 	AllIntoOne       bool
 	ShowAnswers      bool
+	ToggleAnswer     bool
 	HTMLOptimization bool
 	MDHeader         string
 }
@@ -32,6 +33,7 @@ type YqInstance struct {
 type mdBuffer struct {
 	buf             bytes.Buffer
 	isHTMLOptimized bool
+	isAnswerToggle  bool
 }
 
 func NewYqInstance(options *YqOptions) *YqInstance {
@@ -53,7 +55,10 @@ func NewYqInstance(options *YqOptions) *YqInstance {
 }
 
 func (y *YqInstance) ReturnMD() *bytes.Buffer {
-	mdBuf := &mdBuffer{isHTMLOptimized: y.options.HTMLOptimization}
+	mdBuf := &mdBuffer{
+		isHTMLOptimized: y.options.HTMLOptimization,
+		isAnswerToggle:  y.options.ToggleAnswer,
+	}
 	mdBuf.fillBufFromYqInstance(y)
 
 	return &mdBuf.buf

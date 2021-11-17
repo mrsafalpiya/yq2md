@@ -52,6 +52,13 @@ func parseArgs() {
 		false,
 		"Enable this flag to answers of the questions too",
 	)
+	pflag.BoolVarP(
+		&passedArgs.ToggleAnswer,
+		"toggle-answer",
+		"t",
+		false,
+		"Enable this flag to make the answer toggle (Available only when --html flag is enabled)",
+	)
 	pflag.BoolVar(
 		&passedArgs.HTMLOptimization,
 		"html",
