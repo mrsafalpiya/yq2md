@@ -66,6 +66,11 @@ func (m *mdBuffer) fillBufFromYqInstance(y *YqInstance) {
 		m.addCategName(&category.Name)
 		m.addNewLines(2)
 		for i, item := range category.Items {
+			if y.options.HTMLOptimization {
+				m.addString("<div class=\"ques_instance\">")
+				m.addNewLines(1)
+			}
+
 			if y.options.ToNumerize {
 				m.addQNum(&i, &categLen)
 				m.addNewLines(2)
@@ -78,6 +83,11 @@ func (m *mdBuffer) fillBufFromYqInstance(y *YqInstance) {
 			}
 			m.addHLine()
 			m.addNewLines(2)
+
+			if y.options.HTMLOptimization {
+				m.addNewLines(1)
+				m.addString("</div>")
+			}
 		}
 	}
 }

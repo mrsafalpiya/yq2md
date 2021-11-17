@@ -65,8 +65,6 @@ go install github.com/mrsafalpiya/yq2md@latest
 
 ## Usage
 
-Just RTFM
-
 ```sh
 $ yq2md --help
 ```
