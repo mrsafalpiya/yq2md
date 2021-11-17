@@ -33,7 +33,7 @@ yq2md converts
 into
 
 ```sh
-yq2md sample.yaml
+$ yq2md sample.yaml
 ```
 
 ```md
