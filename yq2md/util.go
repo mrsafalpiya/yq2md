@@ -138,7 +138,7 @@ func (b *mdBuffer) addQuesTitle(title *string) {
 
 func (b *mdBuffer) addQuesAns(ans *string) {
 	/* Sometimes the answer is empty */
-	if *ans == "\n" {
+	if *ans == "" || *ans == "\n" {
 		return
 	}
 
